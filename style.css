@@ -1,0 +1,44 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-bottom: 80px;
+}
+
+.navbar ul li a {
+    text-transform: uppercase;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.carousel-inner h1 {
+    text-transform: uppercase;
+}
+
+.carousel-indicators li {
+    background-color: orange;
+}
+
+.buy-now-btn {
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color:#1F1F1F;
+}
+
+.card-deck {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    padding: 50px 18px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
