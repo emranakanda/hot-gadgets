@@ -2,6 +2,10 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+header .container {
+    margin-bottom: 0;
+}
+
 .container {
     margin-bottom: 80px;
 }
@@ -27,10 +31,28 @@ body {
     outline: none;
     color: white;
     margin-top: 20px;
+    font-weight: bold;
     padding: 10px 25px;
     border-radius: 5px;
+    transition: all 0.3s;
     text-transform: uppercase;
     background-color:#1F1F1F;
+}
+
+.buy-now-btn:hover {
+    color: #000;
+    background: #12E3CE;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.category-title h2 {
+    padding-bottom: 10px;
+    border-bottom: 5px solid;
+    border-image: linear-gradient(#ff9c35 0%, #ffd019 100%);
+    border-image-slice: 1;
 }
 
 .card-deck {
@@ -42,3 +64,22 @@ body {
     border-radius: 15px;
     padding: 50px 18px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+section.Categories .card-body {
+    border: none;
+    border-radius: 15px;
+    padding: 50px 18px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+#subscription {
+    padding: 80px;
+    background-color: #F7EDE1;
+}
+
+
+ footer p {
+     font-weight: bold;
+     text-transform: capitalize;
+ }
